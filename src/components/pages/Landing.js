@@ -1,6 +1,7 @@
 import React from "react";
 import BtnLink from "../elements/BtnLink";
 import "../../stylesheets/pages/_landing.scss";
+import Footer from "../elements/Footer";
 
 const Landing = () => {
   return (
@@ -22,6 +23,7 @@ const Landing = () => {
           className="two"
         ></BtnLink>
       </main>
+      <Footer></Footer>
     </>
   );
 };
