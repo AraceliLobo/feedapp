@@ -1,6 +1,4 @@
-import React from "react";
-import BtnLink from "../elements/BtnLink";
-import "../../stylesheets/pages/_landing.scss";
+import "../../stylesheets/elements/_footer.scss";
 
 const Footer = () => {
   return (
