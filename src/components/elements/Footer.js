@@ -3,8 +3,8 @@ import "../../stylesheets/elements/_footer.scss";
 const Footer = () => {
   return (
     <>
-      <nav>
-        <ul>
+      <nav className="footerContainer">
+        <ul className="footerList">
           <li>
             <a href="https://github.com/AraceliLobo/feedapp" target="_blank">
               FeedApp

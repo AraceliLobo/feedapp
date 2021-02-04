@@ -1,0 +1,12 @@
+@import "../core/variables";
+
+.footerContainer {
+  height: 7%;
+  margin-top: 14px;
+}
+.footerList {
+  font-family: $font-titles;
+  color: $color-main;
+  display: flex;
+  justify-content: space-evenly;
+}

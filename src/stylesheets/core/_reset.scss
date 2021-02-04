@@ -4,8 +4,13 @@
   padding: 0;
 }
 body {
-  list-style: none;
-  text-decoration: none;
   font-family: $font-titles;
+  font-style: 14px;
   height: 100vh;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
 }

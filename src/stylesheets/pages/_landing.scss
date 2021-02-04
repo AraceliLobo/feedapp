@@ -1,21 +1,21 @@
 @import "../core/variables";
 
 .mainLanding {
-  height: 75%;
-  background-color: pink;
+  height: 93%;
 }
 
 .hero {
   background-color: $color-main;
   color: white;
-  height: 75%;
+  height: 83%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .buttonContainer {
+  height: 17%;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
 }

@@ -8,7 +8,7 @@ const BtnLink = (props) => {
       <Link
         to={props.to}
         title={props.title}
-        className={`btn__${props.className}`}
+        className={`btn btn__${props.className}`}
       >
         {props.text}
       </Link>

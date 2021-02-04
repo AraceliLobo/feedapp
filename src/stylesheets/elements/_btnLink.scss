@@ -1,0 +1,22 @@
+@import "../core/variables";
+.btn {
+  width: 167px;
+  height: 42px;
+  border: solid 2px $color-secondary;
+  border-radius: 6px;
+  font-family: $font-button;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  &__one {
+    color: $color-secondary;
+    background-color: white;
+  }
+  &__two {
+    color: white;
+    background-color: $color-secondary;
+  }
+}
