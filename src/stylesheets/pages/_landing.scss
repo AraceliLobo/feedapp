@@ -1,0 +1,21 @@
+@import "../core/variables";
+
+.mainLanding {
+  height: 75%;
+  background-color: pink;
+}
+
+.hero {
+  background-color: $color-main;
+  color: white;
+  height: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
