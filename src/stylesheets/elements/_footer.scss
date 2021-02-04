@@ -1,5 +1,9 @@
 @import "../core/variables";
-
+.line {
+  border: solid 2px $color-light;
+  margin: 0 120px 0 120px;
+  border-radius: 5px;
+}
 .footerContainer {
   height: 7%;
   margin-top: 14px;

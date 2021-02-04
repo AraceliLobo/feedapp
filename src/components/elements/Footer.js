@@ -3,6 +3,7 @@ import "../../stylesheets/elements/_footer.scss";
 const Footer = () => {
   return (
     <>
+      <hr className="line"></hr>
       <nav className="footerContainer">
         <ul className="footerList">
           <li>
