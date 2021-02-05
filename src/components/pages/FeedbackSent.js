@@ -14,8 +14,8 @@ const FeedbackSent = () => {
         </div>
         <div className="btnContainer">
           <BtnLink
-            to="/GeneratePIN"
-            title="Ir a generar PIN"
+            to="/ViewFeedback"
+            title="Ir a ver el feedback de la sesión"
             text="Ver feedback"
             className="two"
           ></BtnLink>
