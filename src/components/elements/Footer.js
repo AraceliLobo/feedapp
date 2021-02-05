@@ -2,7 +2,7 @@ import "../../stylesheets/elements/_footer.scss";
 
 const Footer = () => {
   return (
-    <>
+    <footer>
       <hr className="line"></hr>
       <nav className="footerContainer">
         <ul className="footerList">
@@ -22,7 +22,7 @@ const Footer = () => {
           </li>
         </ul>
       </nav>
-    </>
+    </footer>
   );
 };
 
