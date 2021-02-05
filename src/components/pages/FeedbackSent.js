@@ -1,5 +1,6 @@
 import "../../stylesheets/pages/_feedbackSent.scss";
 import HomeLink from "../elements/HomeLink";
+import Animation from "../elements/Animation";
 import BtnLink from "../elements/BtnLink";
 import Footer from "../elements/Footer";
 
@@ -9,7 +10,7 @@ const FeedbackSent = () => {
       <main className="mainFeedbackSent">
         <HomeLink></HomeLink>
         <div className="confirmationContainer">
-          <p>ANIMACIÓN</p>
+          <Animation result="https://assets5.lottiefiles.com/packages/lf20_toncrcj3.json"></Animation>
           <p className="textFeedbackSent">Tus respuestas han sido enviadas</p>
         </div>
         <div className="btnContainer">
