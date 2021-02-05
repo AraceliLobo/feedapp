@@ -1,0 +1,24 @@
+@import "../core/variables";
+
+.navFeedbackSent {
+  height: 6%;
+}
+
+.mainFeedbackSent {
+  height: 87%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.confirmationContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 80%;
+}
+
+.btnContainer {
+  height: 20%;
+}
