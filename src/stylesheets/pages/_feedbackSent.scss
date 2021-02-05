@@ -5,17 +5,22 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 54px;
+  padding: 54px 42px 0 42px;
 }
 
 .confirmationContainer {
+  height: 80%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  height: 80%;
 }
 
 .btnContainer {
   height: 20%;
+}
+
+.textFeedbackSent {
+  font-family: $font-button;
+  font-size: 20px;
 }
