@@ -1,11 +1,11 @@
 @import "../core/variables";
 
-.homeLink {
-  color: $color-main;
-  font-size: 16px;
+.homeLinkContainer {
+  position: absolute;
+  right: 45px;
 }
 
 .fa-home {
-  color: $color-main;
-  font-size: 16px;
+  font-size: 32px;
+  padding: 0 6px 6px 6px;
 }

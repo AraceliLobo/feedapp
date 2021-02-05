@@ -3,9 +3,11 @@ import "../../stylesheets/elements/_homeLink.scss";
 
 const HomeLink = () => {
   return (
-    <Link to="/" title="Vuelve al inicio" className="homeLink">
-      <i className="fas fa-home"></i>
-    </Link>
+    <nav className="homeLinkContainer">
+      <Link to="/" title="Vuelve al inicio">
+        <i className="fas fa-home"></i>
+      </Link>
+    </nav>
   );
 };
 

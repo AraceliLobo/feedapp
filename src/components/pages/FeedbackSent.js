@@ -6,10 +6,8 @@ import Footer from "../elements/Footer";
 const FeedbackSent = () => {
   return (
     <>
-      <nav className="navFeedbackSent">
-        <HomeLink></HomeLink>
-      </nav>
       <main className="mainFeedbackSent">
+        <HomeLink></HomeLink>
         <div className="confirmationContainer">
           <p>ANIMACIÓN</p>
           <p className="textFeedbackSent">Tus respuestas han sido enviadas</p>
