@@ -6,8 +6,11 @@ import Footer from "../elements/Footer";
 const GeneratePIN = () => {
   return (
     <>
-      <main className="mainGeneratePIN">
+      <header className="header">
+        <h1 className="title">Introduce los datos de tu sesión</h1>
         <HomeLink></HomeLink>
+      </header>
+      <main className="mainGeneratePIN">
         <div className="inputContainer"></div>
         <div className="btnContainer">
           <BtnLink
