@@ -22,6 +22,10 @@ const GeneratePIN = () => {
             text="Generar el pin de la sesión"
             className="two"
           ></BtnLink>
+          <span className="iconContainer">
+            <p className="pinText">2021aaac</p>
+            <i class="fa fa-files-o" aria-hidden="true"></i>
+          </span>
         </div>
       </main>
       <Footer></Footer>

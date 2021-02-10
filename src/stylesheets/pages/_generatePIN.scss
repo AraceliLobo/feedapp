@@ -15,7 +15,7 @@
 }
 
 .form {
-  height: 80%;
+  height: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,6 +24,20 @@
 
 .btnGeneratePIN {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   height: 20%;
+}
+
+.fa-files-o {
+  color: $color-light;
+}
+.iconContainer {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+.pinText {
+  color: $color-main;
 }
