@@ -11,5 +11,8 @@
   font-family: $font-button;
   color: $color-label;
   background-color: rgb(255, 255, 255);
-  transform: translate(100px, 30px);
+  margin-left: 10px;
+  width: 65px;
+  text-align: center;
+  transform: translateY(10px);
 }
