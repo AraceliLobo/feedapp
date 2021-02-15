@@ -15,15 +15,23 @@ const GeneratePIN = () => {
             <label className="label" for="name">
               Nombre
             </label>
-            <Input className="input" type="text" id="name" name="name"></Input>
+            <Input className="input" type="text" id="name" name="name" />
+
             <label className="label" for="date">
               Fecha
             </label>
-            <Input className="input" type="text" id="date" name="date"></Input>
+            <Input
+              placeholder="21/01/2021"
+              className="input"
+              type="text"
+              id="date"
+              name="date"
+            />
+
             <label className="label" for="time">
               Intervalo
             </label>
-            <Input className="input" type="text" id="time" name="time"></Input>
+            <Input className="input" type="text" id="time" name="time" />
           </form>
         </div>
         <div className="btnGeneratePIN">

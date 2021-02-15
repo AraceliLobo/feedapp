@@ -7,6 +7,11 @@
   height: 56px;
 }
 
+input::placeholder {
+  color: $color-light;
+  padding-left: 10px;
+}
+
 .label {
   font-family: $font-button;
   color: $color-label;
