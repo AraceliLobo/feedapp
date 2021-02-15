@@ -2,9 +2,14 @@
 
 .input {
   border-radius: 8px;
-
   border-color: $color-light;
-  width: 289px;
+  width: 100%;
   height: 56px;
-  margin-bottom: 10px;
+}
+
+.label {
+  font-family: $font-button;
+  color: $color-label;
+  background-color: rgb(255, 255, 255);
+  transform: translate(100px, 30px);
 }

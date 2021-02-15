@@ -4,29 +4,39 @@
   height: 93%;
   display: flex;
   flex-direction: column;
-  padding-top: 54px;
+  /* padding-top: 54px; */
+  padding: 54px 42px 0 42px;
+  background-color: aqua;
 }
 
 .titleGeneratePIN {
   font-family: $font-button;
   font-size: 20px;
-  width: 200px;
-  margin-left: 48px;
+  width: 60%;
+  /*  margin-left: 48px; */
+  background-color: burlywood;
 }
+/* .containerForm {
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  height: 50%;
+} */
 
 .form {
-  height: 50%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  margin-top: 60px;
+  max-width: 600px;
+  /*  margin: 20px 48px 0 48px; */
+  margin: 20px auto;
+  background-color: rgb(110, 192, 28);
 }
 
 .btnGeneratePIN {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 20%;
+  margin-top: 40px;
 }
 
 .fa-files-o {

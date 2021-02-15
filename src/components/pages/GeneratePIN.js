@@ -10,11 +10,22 @@ const GeneratePIN = () => {
       <main className="mainGeneratePIN">
         <h1 className="titleGeneratePIN">Introduce los datos de tu sesión</h1>
         <HomeLink></HomeLink>
-        <form className="form">
-          <Input className="input" type="text" id="name" name="name"></Input>
-          <Input className="input" type="text" id="date" name="date"></Input>
-          <Input className="input" type="text" id="time" name="time"></Input>
-        </form>
+        <div className="containerForm">
+          <form className="form">
+            <label className="label" for="name">
+              Nombre
+            </label>
+            <Input className="input" type="text" id="name" name="name"></Input>
+            <label className="label" for="date">
+              Fecha
+            </label>
+            <Input className="input" type="text" id="date" name="date"></Input>
+            <label className="label" for="time">
+              Intervalo
+            </label>
+            <Input className="input" type="text" id="time" name="time"></Input>
+          </form>
+        </div>
         <div className="btnGeneratePIN">
           <BtnLink
             to="/ViewFeedback"
