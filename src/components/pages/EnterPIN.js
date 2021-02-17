@@ -7,30 +7,31 @@ import Input from "../elements/Input";
 const EnterPIN = () => {
   return (
     <>
-      <main className="mainGeneratePIN">
-        <h1 className="titleGeneratePIN">Introduce el PIN de la sesión</h1>
+      <main className="mainEnterPIN">
+        <h1 className="titleEnterPIN">Introduce el PIN de la sesión</h1>
         <HomeLink></HomeLink>
-        <div className="containerForm">
-          <form className="form">
-            <label className="label" for="name">
-              Nombre
+        <div className="containerEnterPIN">
+          <form className="formEnterPIN">
+            <label className="label" for="pin">
+              PIN
             </label>
-            <Input className="input" type="text" id="name" name="name" />
+            <Input className="input" type="text" id="pin" name="pin" />
           </form>
-        </div>
-        <div className="btnGeneratePIN">
-          <BtnLink
-            to="/ViewFeedback"
-            title="Dar Feedback"
-            text="Dar Feedback"
-            className="one"
-          ></BtnLink>
-          <BtnLink
-            to="/ViewFeedback"
-            title="Ver Feedback"
-            text="Ver Feedback"
-            className="two"
-          ></BtnLink>
+
+          <div className="btnEnterPIN">
+            <BtnLink
+              to="/ViewFeedback"
+              title="Dar Feedback"
+              text="Dar Feedback"
+              className="one"
+            ></BtnLink>
+            <BtnLink
+              to="/ViewFeedback"
+              title="Ver Feedback"
+              text="Ver Feedback"
+              className="two"
+            ></BtnLink>
+          </div>
         </div>
       </main>
       <Footer></Footer>
