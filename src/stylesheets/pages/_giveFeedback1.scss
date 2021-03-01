@@ -1,15 +1,15 @@
 @import "../core/variables";
 
-.mainEnterPIN {
+.mainGiveFeedback1 {
   height: 93%;
   display: flex;
   flex-direction: column;
-  /* padding-top: 54px; */
+  align-items: left;
   padding: 54px 42px 0 42px;
 }
 
-.titleEnterPIN {
-  font-family: $font-button;
+.titleGiveFeedback1 {
+  font-family: $font-primary;
   font-size: 20px;
   width: 70%;
 }
