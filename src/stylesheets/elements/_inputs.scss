@@ -1,0 +1,23 @@
+@import "../core/variables";
+
+.input {
+  border-radius: 8px;
+  border-color: $color-light;
+  width: 100%;
+  height: 56px;
+}
+
+input::placeholder {
+  color: $color-light;
+  padding-left: 10px;
+}
+
+.label {
+  font-family: $font-button;
+  color: $color-label;
+  background-color: rgb(255, 255, 255);
+  margin-left: 10px;
+  width: 65px;
+  text-align: center;
+  transform: translateY(10px);
+}
