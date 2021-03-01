@@ -3,7 +3,7 @@ import "../../stylesheets/elements/_select.scss";
 const Select = (props) => {
   return (
     <div>
-      <label for={props.label} className="selectLabel">
+      <label htmlFor={props.label} className="selectLabel">
         <input
           id={props.id}
           type="checkbox"
