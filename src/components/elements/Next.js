@@ -5,7 +5,7 @@ const Next = (props) => {
   return (
     <>
       <Link to={props.to} title="Siguiente" className="nextContainer">
-        <i className="fas fa-arrow-right"></i>
+        <i className="arrowIcon fas fa-arrow-right"></i>
         <span>Siguiente</span>
       </Link>
     </>

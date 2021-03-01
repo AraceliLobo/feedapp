@@ -6,12 +6,15 @@
   flex-direction: column;
   align-items: left;
   padding: 54px 42px 0 42px;
+  @media all and (min-width: 768px) {
+    width: 75%;
+    margin: 0 auto;
+  }
 }
 
 .titleGiveFeedback1 {
   font-family: $font-primary;
   font-size: 20px;
-  // width: 70%;
 }
 
 .formGiveFeedback1 {

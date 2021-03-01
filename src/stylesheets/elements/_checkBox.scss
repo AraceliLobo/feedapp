@@ -4,19 +4,17 @@
   display: flex;
   align-items: center;
   padding: 24px 0;
-  cursor: pointer;
 }
 
 .checkBoxInput {
   margin-right: 24px;
   width: 34px;
   height: 34px;
-  border: 2px solid $color-main;
-  border-radius: 6px;
+  cursor: pointer;
 
-  &:checked {
-    border: 2px solid $color-secondary;
-  }
+  // &:checked {
+  //   border: 2px solid $color-secondary;
+  // }
 }
 
 .checkBoxText {
