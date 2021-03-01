@@ -1,5 +1,5 @@
 import "../../stylesheets/pages/_giveFeedback1.scss";
-import Select from "../elements/Select";
+import CheckBox from "../elements/CheckBox";
 import Footer from "../elements/Footer";
 import Next from "../elements/Next";
 
@@ -9,28 +9,28 @@ const GiveFeedback1 = () => {
       <main className="mainGiveFeedback1">
         <h1 className="titleGiveFeedback1">¿Cómo te sientes?</h1>
         <form className="formGiveFeedback1"></form>
-        <Select
+        <CheckBox
           label="Concentrada"
           id=""
           value="Concentrada"
           name="feedback1_Options"
           content="Concentrada"
         />
-        <Select
+        <CheckBox
           label="Distraída"
           id=""
           value="Distraída"
           name="feedback1_Options"
           content="Distraída"
         />
-        <Select
+        <CheckBox
           label="¡A tope!"
           id=""
           value="¡A tope!"
           name="feedback1_Options"
           content="¡A tope!"
         />
-        <Select
+        <CheckBox
           label="Quiero llorar"
           id=""
           value="Quiero llorar"

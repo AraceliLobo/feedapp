@@ -11,26 +11,12 @@
 .titleGiveFeedback1 {
   font-family: $font-primary;
   font-size: 20px;
-  width: 70%;
+  // width: 70%;
 }
 
-.containerEnterPIN {
-  margin: auto 0;
-}
-
-.formEnterPIN {
+.formGiveFeedback1 {
   display: flex;
   flex-direction: column;
   max-width: 600px;
-  /*  margin: 20px 48px 0 48px; */
   margin: 20px auto;
-}
-
-.btnEnterPIN {
-  height: 100px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 70px;
 }
