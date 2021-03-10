@@ -1,0 +1,15 @@
+@import "../core/variables";
+
+.nextContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: flex-end;
+  padding-top: 24px;
+  color: $color-secondary;
+}
+
+.arrowIcon {
+  font-size: 32px;
+  padding-bottom: 6px;
+}

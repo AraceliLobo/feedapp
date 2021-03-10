@@ -20,7 +20,7 @@ const EnterPIN = () => {
 
           <div className="btnEnterPIN">
             <BtnLink
-              to="/ViewFeedback"
+              to="/GiveFeedback1"
               title="Dar Feedback"
               text="Dar Feedback"
               className="one"
